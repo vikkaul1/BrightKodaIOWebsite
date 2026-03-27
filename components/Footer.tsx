@@ -35,18 +35,20 @@ export default function Footer() {
             <h4 className="font-semibold text-sm mb-4 text-white/80 uppercase tracking-wide">Legal</h4>
             <ul className="space-y-2">
               <li><Link href="/privacy-policy" className="text-white/60 text-sm hover:text-koda-tealLight transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="text-white/60 text-sm hover:text-koda-tealLight transition-colors">Terms & Conditions</Link></li>
+              <li><Link href="/terms" className="text-white/60 text-sm hover:text-koda-tealLight transition-colors">Terms &amp; Conditions</Link></li>
+              <li><Link href="/sms-opt-in" className="text-white/60 text-sm hover:text-koda-tealLight transition-colors">SMS Opt-In Policy</Link></li>
             </ul>
             <div className="mt-6 p-3 bg-white/5 rounded-lg">
               <p className="text-white/50 text-xs leading-relaxed">
-                SMS: Reply <strong className="text-white/70">STOP</strong> to opt out, <strong className="text-white/70">HELP</strong> for help. Msg & data rates may apply.
+                SMS: Reply <strong className="text-white/70">STOP</strong> to opt out,{" "}
+                <strong className="text-white/70">HELP</strong> for help. Msg &amp; data rates may apply.
               </p>
             </div>
           </div>
         </div>
 
         <p className="text-white/30 text-xs mt-6 text-center">
-          BrightKoda is a technology brand of Swing Cap LLC · brightkoda.io
+          BrightKoda is a technology brand of Swing Cap LLC · brightkoda.org
         </p>
       </div>
     </footer>
