@@ -10,14 +10,14 @@ export default function PrivacyPolicyPage() {
           <div className="mb-10">
             <span className="text-koda-teal font-medium text-sm uppercase tracking-wider">Legal</span>
             <h1 className="text-4xl md:text-5xl font-display text-koda-navy mt-2 mb-2">Privacy Policy</h1>
-            <p className="text-gray-400 text-sm">Last updated: March 7, 2025 | Swing Cap LLC d/b/a BrightKoda / Complete Homecare / Xtreme Care</p>
+            <p className="text-gray-400 text-sm">Last updated: April 8, 2026 | Swing Cap LLC d/b/a BrightKoda / Complete Homecare / Xtreme Care</p>
           </div>
 
           <div className="prose prose-gray max-w-none space-y-8 text-gray-600 leading-relaxed">
 
             <section>
               <h2 className="text-2xl font-display text-koda-navy mb-3">1. Introduction</h2>
-              <p>Swing Cap LLC, operating under the brands BrightKoda, Complete Homecare, and Xtreme Care ("Company," "we," "us," or "our"), is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our websites (<strong>brightkoda.io</strong>, brightkoda.com) or interact with our services.</p>
+              <p>Swing Cap LLC, operating under the brands BrightKoda, Complete Homecare, and Xtreme Care ("Company," "we," "us," or "our"), is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website (<strong>brightkoda.org</strong>) or interact with our services.</p>
             </section>
 
             <section>
@@ -34,12 +34,10 @@ export default function PrivacyPolicyPage() {
 
             <section className="bg-teal-50 border border-teal-200 rounded-xl p-6">
               <h2 className="text-2xl font-display text-koda-navy mb-3">3. SMS / Text Messaging</h2>
-              <p className="mb-3">When you provide your mobile phone number and check the SMS consent checkbox on our website forms, you expressly consent to receive SMS text messages from Complete Homecare / Xtreme Care (Swing Cap LLC) regarding:</p>
+              <p className="mb-3">When you provide your mobile phone number and check the SMS consent checkbox(es) on our website forms at <strong>brightkoda.org</strong>, you expressly consent to receive SMS text messages from Complete Homecare / Xtreme Care (Swing Cap LLC) regarding:</p>
               <ul className="list-disc pl-6 space-y-1 mb-4">
-                <li>Application status updates and onboarding links</li>
-                <li>Appointment confirmations and reminders</li>
-                <li>Service-related updates directly related to your inquiry</li>
-                <li>Scheduling information for caregivers and clients</li>
+                <li><strong>Transactional/Informational:</strong> Application status updates, onboarding links, appointment confirmations and reminders, service-related updates directly related to your inquiry</li>
+                <li><strong>Promotional/Marketing</strong> (if separately opted in): Job openings, service announcements, and related offers from Complete Homecare / Xtreme Care</li>
               </ul>
               <div className="bg-white rounded-lg p-4 border border-teal-200 space-y-2 text-sm">
                 <p><strong>Opt-Out:</strong> Reply <strong>STOP</strong> to any SMS message to unsubscribe. You will receive a confirmation and no further messages will be sent.</p>
@@ -47,7 +45,7 @@ export default function PrivacyPolicyPage() {
                 <p><strong>Message Frequency:</strong> Message frequency varies based on your interaction with our services.</p>
                 <p><strong>Costs:</strong> Message and data rates may apply depending on your mobile carrier plan.</p>
                 <p><strong>No Purchased Lists:</strong> We do not use purchased, shared, or third-party contact lists. All SMS messages are sent only to individuals who have directly provided consent through our forms or verbally during phone calls.</p>
-                <p><strong>Staff Calls:</strong> For verbal consent collected during phone calls, our staff informs callers that by providing a mobile number they agree to receive SMS messages, that message frequency varies, and that they can reply STOP or HELP at any time.</p>
+                <p><strong>Separate Consent:</strong> Transactional and promotional SMS communications require separate opt-in consent. You may opt in to one or both.</p>
               </div>
             </section>
 
@@ -87,7 +85,7 @@ export default function PrivacyPolicyPage() {
 
             <section>
               <h2 className="text-2xl font-display text-koda-navy mb-3">8. Cookies</h2>
-              <p>Our websites use cookies and similar tracking technologies to improve functionality and analyze usage. You can control cookies through your browser settings.</p>
+              <p>Our website uses cookies and similar tracking technologies to improve functionality and analyze usage. You can control cookies through your browser settings.</p>
             </section>
 
             <section>
@@ -100,8 +98,8 @@ export default function PrivacyPolicyPage() {
               <p>For privacy-related questions or to exercise your rights, contact us at:</p>
               <div className="bg-koda-cream rounded-lg p-4 mt-3">
                 <p><strong>Swing Cap LLC d/b/a BrightKoda</strong></p>
-                <p>Email: privacy@brightkoda.io</p>
-                <p>Website: brightkoda.io</p>
+                <p>Email: privacy@brightkoda.org</p>
+                <p>Website: brightkoda.org</p>
               </div>
             </section>
 
