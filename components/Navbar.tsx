@@ -21,6 +21,7 @@ export default function Navbar() {
           <Link href="/#products" className="text-gray-600 hover:text-koda-teal text-sm font-medium transition-colors">Products</Link>
           <Link href="/#about" className="text-gray-600 hover:text-koda-teal text-sm font-medium transition-colors">About</Link>
           <Link href="/apply" className="text-gray-600 hover:text-koda-teal text-sm font-medium transition-colors">Apply as Caregiver</Link>
+          <Link href="/contact" className="text-gray-600 hover:text-koda-teal text-sm font-medium transition-colors">Contact Us</Link>
           <Link href="/contact" className="btn-primary text-sm py-2">Get Started</Link>
         </div>
 
@@ -40,6 +41,7 @@ export default function Navbar() {
           <Link href="/#products" className="block text-gray-700 py-2 text-sm font-medium" onClick={() => setOpen(false)}>Products</Link>
           <Link href="/#about" className="block text-gray-700 py-2 text-sm font-medium" onClick={() => setOpen(false)}>About</Link>
           <Link href="/apply" className="block text-gray-700 py-2 text-sm font-medium" onClick={() => setOpen(false)}>Apply as Caregiver</Link>
+          <Link href="/contact" className="block text-gray-700 py-2 text-sm font-medium" onClick={() => setOpen(false)}>Contact Us</Link>
           <Link href="/contact" className="btn-primary block text-center text-sm py-2" onClick={() => setOpen(false)}>Get Started</Link>
         </div>
       )}
